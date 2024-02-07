@@ -1,0 +1,52 @@
+h2 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  color: brown;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: hsla(0, 12%, 76%, 0.5);
+  height: 100vh;
+}
+.listEle {
+  padding: 3px;
+  margin: 3px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.listEle:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.inp {
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  border: 3px solid grey;
+  border-radius: 5px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(140, 75%, 50%);
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 0.8em;
+  font-weight: bold;
+  height: 30px;
+  width: 155px;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(140, 75%, 40%);
+  color: rgb(0, 0, 0);
+}
